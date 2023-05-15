@@ -1,0 +1,90 @@
+<!--Main Navigation-->
+<header>
+  <!-- Sidebar -->
+  <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+    <div class="position-sticky">
+      <div class="list-group list-group-flush mx-3 mt-4">
+
+        <a routerLink="home"
+          routerLinkActive="active"
+          class="list-group-item list-group-item-action py-2 ripple">
+          <i class="fa fa-home fa-fw me-3"></i
+          ><span>Home</span>
+        </a>
+
+        <a routerLink="add-new-student"
+           routerLinkActive="active"
+          class="list-group-item list-group-item-action py-2 ripple">
+          <i class="fa fa-user-plus fa-fw me-3"></i>
+          <span>Add New Students</span>
+        </a>
+
+        <a routerLink="students"
+           routerLinkActive="active"
+          class="list-group-item list-group-item-action py-2 ripple">
+          <i class="fa fa-users fa-fw me-3"></i>
+          <span>Students List</span>
+        </a>
+
+        <a routerLink="add-new-course"
+           routerLinkActive="active"
+          class="list-group-item list-group-item-action py-2 ripple">
+          <i class="fa fa-book fa-fw me-3"></i>
+          <span>Add New Courses</span>
+        </a>
+
+        <a routerLink="courses"
+           routerLinkActive="active"
+          class="list-group-item list-group-item-action py-2 ripple">
+          <i class="fa fa-list fa-fw me-3"></i>
+          <span>Courses List</span>
+        </a>
+
+        <a routerLink="add-new-result"
+           routerLinkActive="active"
+          class="list-group-item list-group-item-action py-2 ripple">
+          <i class="fa fa-graduation-cap fa-fw me-3"></i>
+          <span>Add New Results</span>
+        </a>
+
+        <a routerLink="results"
+           routerLinkActive="active"
+          class="list-group-item list-group-item-action py-2 ripple">
+          <i class="fa fa-clipboard fa-fw me-3"></i>
+          <span>Results List</span>
+        </a>
+
+
+      </div>
+
+    </div>
+
+  </nav>
+  <!-- Sidebar -->
+
+  <nav
+    id="main-navbar"
+    class="navbar navbar-expand-lg navbar-light bg-white fixed-top"
+  >
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Brand -->
+      <a class="navbar-brand text-primary" href="#">
+        <h4 class="mx-2">Student Management System</h4>
+      </a>
+
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+
+</header>
+<!--Main Navigation-->
+
+<!--Main layout-->
+<main class="pt-4">
+  <div class="container my-4 p-4">
+    <router-outlet></router-outlet>
+  </div>
+</main>
+<!--Main layout-->
+
